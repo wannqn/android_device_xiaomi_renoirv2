@@ -9,8 +9,6 @@ $(call inherit-product, device/xiaomi/renoir/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
--include vendor/evolution-priv/keys/keys.mk
-
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := renoir
 PRODUCT_MANUFACTURER := Xiaomi
