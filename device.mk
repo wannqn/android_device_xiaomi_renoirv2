@@ -6,8 +6,8 @@
 # Inherit from sm8350-common
 $(call inherit-product, device/xiaomi/sm8350-common/common.mk)
 
-# Inherit MiuiCamera Makefile
-$(call inherit-product-if-exists, vendor/xiaomi/miuicamera-renoir/device.mk)
+# Camera (MIUI)
+$(call inherit-product-if-exists, vendor/xiaomi/camera/miuicamera.mk)
 
 # Audio
 PRODUCT_COPY_FILES += \
