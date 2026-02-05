@@ -16,7 +16,7 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := renoir
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_MODEL := M2101K9G
-PRODUCT_NAME := custom_renoir
+PRODUCT_NAME := aosp_renoir
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="renoir_global-user 13 TKQ1.220829.002 V14.0.7.0.TKIMIXM release-keys" \
