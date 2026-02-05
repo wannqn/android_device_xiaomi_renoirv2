@@ -4,4 +4,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_renoir.mk
+    $(LOCAL_DIR)/aosp_renoir.mk
